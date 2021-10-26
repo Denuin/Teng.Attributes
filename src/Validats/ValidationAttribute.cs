@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Teng.Attributes
+namespace Teng.Validats
 {
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = true)]
     public abstract class ValidationAttribute : Attribute

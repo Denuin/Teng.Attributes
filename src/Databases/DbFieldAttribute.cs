@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Teng.Attributes
+namespace Teng.Data
 {
     [AttributeUsage(AttributeTargets.Property)]
     public class DbFieldAttribute : Attribute

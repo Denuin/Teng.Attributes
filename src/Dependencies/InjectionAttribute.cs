@@ -3,7 +3,7 @@
 namespace Teng.Dependencies
 {
     [AttributeUsage(AttributeTargets.Class)]
-    public class DependencyClassSingleInstanceAttribute : Attribute
+    public class InjectionAttribute : Attribute
     {
     }
 }

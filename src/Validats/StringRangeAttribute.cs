@@ -1,4 +1,4 @@
-﻿namespace Teng.Attributes
+﻿namespace Teng.Validats
 {
     /// <summary>
     /// 约束字符串的长度范围

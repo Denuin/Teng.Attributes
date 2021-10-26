@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Teng.Attributes
+namespace Teng.Data
 {
-    [AttributeUsage(AttributeTargets.Property)]
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
     public class PrimaryKeyAttribute : Attribute
     {
     }

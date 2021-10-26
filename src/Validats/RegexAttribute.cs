@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace Teng.Attributes.Validats
+namespace Teng.Validats
 {
     /// <summary>
     /// 约束符合正则表达式

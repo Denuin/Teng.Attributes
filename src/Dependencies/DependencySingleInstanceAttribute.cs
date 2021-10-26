@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Teng.Attributes
+namespace Teng.Dependencies
 {
     [AttributeUsage(AttributeTargets.Class)]
     public class DependencySingleInstanceAttribute : Attribute

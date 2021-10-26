@@ -1,4 +1,4 @@
-﻿namespace Teng.Attributes
+﻿namespace Teng.Validats
 {
     /// <summary>
     /// 约束属性不能为空

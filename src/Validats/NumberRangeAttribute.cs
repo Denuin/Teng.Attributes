@@ -1,4 +1,4 @@
-﻿namespace Teng.Attributes
+﻿namespace Teng.Validats
 {
     /// <summary>
     /// 数值范围

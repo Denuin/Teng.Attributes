@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Teng.Attributes
+namespace Teng.Validats
 {
     public static class ValidateExtensions
     {
