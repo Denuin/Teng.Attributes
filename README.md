@@ -1,6 +1,6 @@
 # Teng.Attributes
 
-## [Teng.Data] 
+## 1. [Teng.Data] 
   - **Attribute**
 	 - Table
 	 - PrimaryKey
@@ -11,14 +11,14 @@
 	  - FieldValue
 
 
-## [Teng.Data.Interfaces] 
+## 2. [Teng.Data.Interfaces] 
  - **Interface**
 	- IDbHelperConfig
 	- IDbHelperAdmin
 	- IDbHelper
 
 
-## [Teng.Dependencise] 
+## 3. [Teng.Dependencies] 
   - **Attribute**
 	 - Dependency
 	 - DependencySingleInstance
@@ -31,7 +31,7 @@
 	 - InjectionBase
 
 
-## [Teng.Validats] 
+## 4. [Teng.Validats] 
   - **Attribute**
 	 - NumberRange
 	 - StringRange
@@ -41,4 +41,22 @@
 - **Extension**
 	 - ValidateExtensions
 
+---
+# Change log
 
+## 1.1.0
+-   Update: namespace
+-   Add: 
+	-   InitializeApp
+	-   InjectionBase
+	-   InjectionAttribute
+	-   ResolveAttribute
+	-   CommandParametersPair
+	-   FieldValue
+	-   LoopState
+	-   IDbHelper
+	-   IDbHelperAdmin
+	-   IDbHelperConfig
+
+## 1.0.0
+First release
