@@ -1,43 +1,44 @@
 # Teng.Attributes
 
-## [Dependencies] 
-
- - Dependency
- - DependencyClass
- - DependencyClassSingleInstance
- - DependencySingleInstance
- - Injection ==1.1.0新增==
- - Resolve ==1.1.0新增==
-
-> Teng.DependencyInjetion
-
-
-## [Databases] 
-
- - DbFieldAttribute
- - IgnoreAttribute
- - PrimaryKeyAttribute
- - TableAttribute
- - **Interfaces**
-IDbHelperConfig
-IDbHelperAdmin
-IDbHelper
-
-> Teng.Sqlite
+## [Teng.Data] 
+  - **Attribute**
+	 - Table
+	 - PrimaryKey
+	 - DbField
+	 - Ignore
+  - **Class**
+	  - CommandParametersPair
+	  - FieldValue
 
 
-## [Validats]
+## [Teng.Data.Interfaces] 
+ - **Interface**
+	- IDbHelperConfig
+	- IDbHelperAdmin
+	- IDbHelper
 
- - NumberRange
- - StringRange
- - Regex
- - Required
- - Validation
- - ValidateExtensions
 
-## [Others]
- - IInitializeApp ==1.1.0新增==
- - InjectionBase ==1.1.0新增==
+## [Teng.Dependencise] 
+  - **Attribute**
+	 - Dependency
+	 - DependencySingleInstance
+	 - DependencyClass
+	 - DependencyClassSingleInstance
+	 - Injection
+ - **Interface**
+	 - InitializeApp
+ - **Class**
+	 - InjectionBase
 
-> Teng.DependencyInjetion
+
+## [Teng.Validats] 
+  - **Attribute**
+	 - NumberRange
+	 - StringRange
+	 - Regex
+	 - Required
+	 - Validation
+- **Extension**
+	 - ValidateExtensions
+
 
