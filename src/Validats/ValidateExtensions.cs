@@ -5,17 +5,20 @@ using System.Reflection;
 
 namespace Teng.Validats
 {
+    /// <summary>
+    /// 有效性扩展类
+    /// </summary>
     public static class ValidateExtensions
     {
         public static string Validate<T>(this T _input)
         {
             Type type = _input.GetType();
 
-            PropertyInfo[] propertyInfos = type.GetProperties(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+            PropertyInfo[] propertyInfos = type.GetProperties(BindingFlags.Instance | BindingFlags.Public);
             List<string> ErrorList = new List<string>();
             foreach (PropertyInfo p in propertyInfos)
             {
-                var lstp = p.GetCustomAttributes(false).Where(a => a is ValidationAttribute).Select(a => a as ValidationAttribute);
+                var lstp = p.GetCustomAttributes(false).OfType<ValidationAttribute>();
                 if (lstp != null)
                 {
                     foreach (var attr in lstp)

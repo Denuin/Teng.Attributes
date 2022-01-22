@@ -3,7 +3,7 @@
 namespace Teng.Validats
 {
     /// <summary>
-    /// 约束符合正则表达式
+    /// 约束符合正则表达式有效性特性
     /// </summary>
     public class RegexAttribute : ValidationAttribute
     {

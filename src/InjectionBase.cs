@@ -10,6 +10,9 @@ namespace Teng.Dependencies
         [Resolve]
         public static Func<Type, object> ResolveFunc;
 
+        /// <summary>
+        /// 获取Component
+        /// </summary>
         public T Resolve<T>()
         {
             return (T)ResolveFunc?.Invoke(typeof(T));

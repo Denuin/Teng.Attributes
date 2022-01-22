@@ -1,7 +1,7 @@
 ﻿namespace Teng.Validats
 {
     /// <summary>
-    /// 约束属性不能为空
+    /// 约束属性不能为空有效性特性
     /// </summary>
     public class RequiredAttribute : ValidationAttribute
     {
