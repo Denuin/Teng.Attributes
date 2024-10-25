@@ -44,6 +44,9 @@
 ---
 # Change log
 
+## 1.1.2 (2024-10-25)
+- Compile with NET8.0
+
 ## 1.1.0
 -   Update: namespace
 -   Add: 
@@ -60,3 +63,5 @@
 
 ## 1.0.0
 First release
+
+> https://github.com/Denuin/Teng.Attributes
